@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik, serif;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+.container {
+    padding: 0 128px;
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        padding: 0 64px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 32px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+}
